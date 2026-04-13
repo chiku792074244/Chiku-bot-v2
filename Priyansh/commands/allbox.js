@@ -53,7 +53,7 @@ module.exports.handleReply = async function ({ api, event, args, Threads, handle
         }
 
         if (arg[0] == "out" || arg[0] == "Out") {
-          api.sendMessage(`»Notifications from Owner 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭«\n\n ★★Deleted from chat★★ group`, idgr, () =>
+          api.sendMessage(`»Notifications from Owner 𝐂𝐇𝐈𝐊𝐔 𝐏𝐈𝐄 𝐗𝐃 «\n\n ★★Deleted from chat★★ group`, idgr, () =>
             api.sendMessage(`${api.getCurrentUserID()}`, () =>
               api.sendMessage(`★★𝐎𝐮𝐭𝐒𝐮𝐜𝐜𝐞𝐬𝐬★★\n\n🔷${groupName} \n🔰𝐓𝐈𝐃:${idgr} `, threadID, () =>
                 api.unsendMessage(handleReply.messageID, () =>
